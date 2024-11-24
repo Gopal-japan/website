@@ -1,0 +1,12 @@
+{
+  "name": "gopal-website",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "build": "mkdir -p build && rsync -av --exclude build/ ./ build/ && echo 'Static files are in build/'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
